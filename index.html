@@ -32,7 +32,6 @@
                 <a href="#">About</a>
                 <a href="#">Skills</a>
                 <a href="#">Services</a>
-                <a href="#">Blogs</a>
                 <a href="#" class="contact-btn">Contact Us</a>
             </div>
 
@@ -46,7 +45,6 @@
                 <a href="#">About</a>
                 <a href="#">Skills</a>
                 <a href="#">Services</a>
-                <a href="#">Blogs</a>
                 <a href="#">Contact Us</a>
             </div>
         </div>
@@ -84,8 +82,9 @@
                 
                 </div>
                 <div class="btn">
-                    <button>Download CV</button>
+                    <a href="Warda Malik.pdf" download class="download-btn">Download CV</a>
                 </div>
+
             </div>
         </div>
     </section>
@@ -109,6 +108,7 @@
                 <p>
                     When I’m not coding, I enjoy reading about technology, exploring new design ideas, and connecting with other developers in the community. I am excited to contribute to innovative projects, collaborate with talented teams, and continue growing as a professional web developer. With dedication, creativity, and a love for learning, I aim to make a positive impact through my work and create web experiences that people love to use.  
                 </p>
+                <h2>Skills</h2>
                 <div class="about-skills">
                     <div class="skill">
                     <span>HTML</span>
@@ -133,49 +133,98 @@
         </div>
     </section>
     <!-- services -->
-    <section id="services">
-        <h2 style="text-align:center; color:rgb(109,67,0); margin-top:40px;">Services</h2>
-        <div class="services-container">
-            <div class="service-card">
-                <i class="fa-solid fa-code fa-2x"></i>
-                <h3>Web Development</h3>
-                <p>Responsive websites with HTML, CSS, JavaScript.</p>
-            </div>
-            <div class="service-card">
-                <i class="fa-solid fa-paintbrush fa-2x"></i>
-                <h3>UI/UX Design</h3>
-                <p>Creative designs that are user-friendly and modern.</p>
-            </div>
-            <div class="service-card">
-                <i class="fa-solid fa-mobile-screen fa-2x"></i>
-                <h3>Mobile-Friendly</h3>
-                <p>Websites optimized for all screen sizes and devices.</p>
-            </div>
+   <section id="services">
+    <h2 style="text-align:center; color:rgb(109,67,0); margin-top:40px;">Services</h2>
+    <div class="services-container">
+        
+        <div class="service-card">
+            <i class="fa-solid fa-code fa-2x"></i>
+            <h3>Web Development</h3>
+            <p>I create modern, responsive, and user-friendly websites using HTML, CSS, and JavaScript. 
+               My focus is on clean design, smooth functionality, and performance so that your website 
+               not only looks attractive but also delivers a seamless browsing experience for visitors.</p>
         </div>
-    </section>
+        
+        <div class="service-card">
+            <i class="fa-solid fa-mobile-screen fa-2x"></i>
+            <h3>Mobile-Friendly</h3>
+            <p>Every website I build is fully optimized for mobile devices, tablets, and desktops. 
+               With a mobile-first approach, I ensure that your website adapts perfectly to all screen sizes, 
+               providing easy navigation, fast loading speed, and a professional look across every platform.</p>
+        </div>
+        
+    </div>
+</section>
+
     <!-- projects -->
     <section id="projects">
         <h2 style="text-align:center; color:rgb(109,67,0); margin-top:40px;">My Projects</h2>
         <div class="projects-container">
+
             <div class="project-card">
-                <h3>Project One</h3>
-                <a href="https://github.com/wardamalik883-collab/book-library.git" target="_blank">View Project</a>
+                <img src="Book library.png" alt="Book Library Project" style="width:100%; border-radius:10px; margin-bottom:10px;">
+                <h3>Book Library</h3>
+                <a href="https://book-library-gamma-inky.vercel.app/" target="_blank">View Project</a>
             </div>
+
         </div>
     </section>
+
 
     <!-- contact -->
     <section id="contact">
         <h2 style="text-align:center; color:rgb(109,67,0); margin-top:40px;">Contact Me</h2>
         <div class="contact-container">
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit">Send Message</button>
+            <form action="https://api.web3forms.com/submit" method="POST">
+            
+            <input type="hidden" name="access_key" value="ed3f6991-7a89-4af6-a847-38029fa75a89">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+
+            <button type="submit">Send Message</button>
             </form>
         </div>
     </section>
+
+    <!-- footer -->
+     <footer>
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Warda Malik</h3>
+      <p>Passionate Web Developer focused on building responsive, user-friendly, 
+         and modern websites that deliver a lasting impact.</p>
+
+      <!-- Social Icons -->
+      <div class="footer-social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Warda Malik | All Rights Reserved</p>
+  </div>
+</footer>
+
 
 
 </body>
