@@ -112,9 +112,9 @@ nav {
     left: 0;
     width: 100%;
     height: 100vh;
-    backdrop-filter: brightness(40%) blur(3px);
-    background-color: rgba(0,0,0,0.7);
     transform: translateY(-100%); 
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.9);
     transition: transform 0.3s ease-in-out;
     display: flex;
     justify-content: center;
@@ -268,7 +268,7 @@ section.hero {
     background-color: rgb(109,67,0);
     color: white;
     text-align: center;
-    line-height: 6vh; /* vertical center */
+    line-height: 6vh;
     font-size: 100%;
     font-weight: 700;
     border-radius: 5px;
@@ -380,7 +380,7 @@ section.hero {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  width: 250px;
+  width: 300px;
   text-align: center;
   transition: 0.3s;
 }
